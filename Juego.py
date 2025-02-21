@@ -7,7 +7,7 @@ print('ganaste al primer intento')
 
 while num != jugador:
     print('numero equivocado, ingrese un numero: ')
-    player = int(input('ingrese o'))
+    player = int(input('ingrese otro numero: '))
     if num == jugador:
         print('adivinaste el numero')
         break
